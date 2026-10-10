@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Souk Market — E-commerce (projet fictif de démonstration)</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d1030"/>
+      <stop offset="1" stop-color="#03040a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d946ef" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="blob" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#e879f9" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#e879f9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <ellipse cx="180" cy="200" rx="420" ry="300" fill="url(#blob)"/>
+  <rect x="230" y="140" width="740" height="440" rx="18" fill="#0c1229" fill-opacity="0.95" stroke="#ffffff" stroke-opacity="0.12"/>
+  <rect x="238" y="148" width="724" height="30" rx="10" fill="#ffffff" fill-opacity="0.06"/>
+  <circle cx="258" cy="163" r="5" fill="#f87171"/>
+  <circle cx="276" cy="163" r="5" fill="#fbbf24"/>
+  <circle cx="294" cy="163" r="5" fill="#34d399"/>
+  <rect x="270" y="250" width="200" height="130" rx="12" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="270" y="398" width="130" height="10" rx="5" fill="#ffffff" fill-opacity="0.5"/>
+  <rect x="270" y="418" width="90" height="12" rx="6" fill="url(#glow)"/>
+  <rect x="495" y="250" width="200" height="130" rx="12" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="495" y="398" width="130" height="10" rx="5" fill="#ffffff" fill-opacity="0.5"/>
+  <rect x="495" y="418" width="90" height="12" rx="6" fill="url(#glow)"/>
+  <rect x="720" y="250" width="200" height="130" rx="12" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="720" y="398" width="130" height="10" rx="5" fill="#ffffff" fill-opacity="0.5"/>
+  <rect x="720" y="418" width="90" height="12" rx="6" fill="url(#glow)"/>
+  <path d="M350 560l-60 0 20 28 60 0z" fill="url(#glow)" opacity="0"/>
+  <text x="230" y="652" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Souk Market</text>
+  <text x="230" y="684" fill="#e879f9" font-family="Arial, Helvetica, sans-serif" font-size="18">Projet fictif de démonstration</text>
+  <rect x="230" y="710" width="200" height="6" rx="3" fill="url(#glow)"/>
+</svg>

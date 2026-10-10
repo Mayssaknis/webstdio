@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model QuoteRequest {
+  id          String   @id @default(cuid())
+  fullName    String
+  company     String?
+  email       String
+  phone       String
+  projectType String
+  budget      String?
+  message     String
+  source      String?
+  userAgent   String?
+  ipHash      String?
+  status      String   @default("new")
+  createdAt   DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([email])
+}
